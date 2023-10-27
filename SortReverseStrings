@@ -1,0 +1,21 @@
+// sorting and reversing for strings
+
+var strarr= ["banana","apple","orange"]
+
+console.log(strarr.sort())
+console.log(strarr.reverse())
+
+
+// Sorting numbers
+
+var intarr= [4,1,9,003,6]
+
+// ascending sort
+intarr.sort((a,b)=>(a-b))
+
+console.log(intarr)
+
+// decending sort or reverse
+
+intarr.sort((a,b)=>b-a)
+console.log(intarr)
